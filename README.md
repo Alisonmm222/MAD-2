@@ -5,9 +5,6 @@
 
 **Authors:** Alison Moldovan-Mauer, Benedikt Mangold
 
-The results in the paper have been obtained using the Llama 3.1 model with 405B parameters.
-
-
 This project is organized following the [Cookiecutter Data Science](https://cookiecutter-data-science.drivendata.org/) template. The structure is as follows:
 
 ```
@@ -18,13 +15,18 @@ This project is organized following the [Cookiecutter Data Science](https://cook
 ├── requirements.txt
 ```
 
+The results in the paper have been obtained using the following models:
+- Llama 3.1 with 405B parameters (equal to MAD 1.0)
+- GPT-OSS with 120B parameters
+- Mistral with 27B parameters
+
 ## Installation
 
 1. Setup environment
 ```bash
 pip install -r requirements.txt
 ``` 
-2. To reproduce the results you need to connect to available API endpoints for every model. 
+2. In order to reproduce the results, you will need to connect to the available API endpoints for each model.
 ```bash
 notebooks/run_eperiment.ipynb
 ```
