@@ -1,8 +1,6 @@
 import json
 from pathlib import Path
 
-
-
 def get_agent_who_starts(directory):
     file_lookup = {f.name: f for f in directory.rglob("*.json")}
     def inner(path):
