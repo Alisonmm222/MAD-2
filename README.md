@@ -18,7 +18,7 @@ This project is organized following the [Cookiecutter Data Science](https://cook
 The results in the paper have been obtained using the following models:
 - Llama 3.1 with 405B parameters (equal to MAD 1.0)
 - GPT-OSS with 120B parameters
-- Mistral with 27B parameters
+- Mistral with 24B parameters
 
 ## Installation
 
