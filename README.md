@@ -8,9 +8,9 @@
 This project is organized following the [Cookiecutter Data Science](https://cookiecutter-data-science.drivendata.org/) template. The structure is as follows:
 
 ```
+├── figures
 ├── notebooks  
 ├── src
-├── env. 
 ├── README.md         
 ├── requirements.txt
 ```
@@ -26,7 +26,8 @@ The results in the paper have been obtained using the following models:
 ```bash
 pip install -r requirements.txt
 ``` 
-2. In order to reproduce the results, you will need to connect to the available API endpoints for each model.
+2. In order to reproduce the results, you will need to connect to the available API endpoints for each model. 
+Create a conf folder with your API keys and URL for each model as well as a data folder for the outputs.
 ```bash
 notebooks/run_eperiment.ipynb
 ```
